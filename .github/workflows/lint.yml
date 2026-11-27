@@ -27,7 +27,7 @@ jobs:
           coverage: none
 
       - name: Install Dependencies
-        run: composer install --no-interaction --no-suggest --no-progress --no-autoloader --no-scripts
+        run: composer install --no-interaction --no-progress --no-autoloader --no-scripts
 
       - name: Pint
         run: vendor/bin/pint --test
